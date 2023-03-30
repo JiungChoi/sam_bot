@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="sam_bot_description.lint_cmake"
+  tests="37"
+  errors="0"
+  failures="30"
+  time="0.030"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="sam_bot_description.lint_cmake"/>
+  <testcase
+    name="build/CTestCustom.cmake"
+    classname="sam_bot_description.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/CTestTestfile.cmake:1)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/CTestTestfile.cmake:4)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/CTestTestfile.cmake:5)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="linelength (build/CTestTestfile.cmake:7)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 80 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:13)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/cmake_install.cmake:89)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:106)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/cmake_install.cmake:108)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="sam_bot_description.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/Makefile.cmake:8)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/Makefile.cmake:261)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/Makefile.cmake:267)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/Makefile.cmake:294)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/3.16.3/CMakeCCompiler.cmake:30)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/3.16.3/CMakeCCompiler.cmake:31)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:32)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:33)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:48)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Extra spaces between 'foreach' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:49)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/3.16.3/CMakeSystem.cmake"
+    classname="sam_bot_description.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake:2)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake:7)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/sam_bot_description_uninstall.dir/cmake_clean.cmake:6)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/uninstall.dir/DependInfo.cmake:2)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/uninstall.dir/DependInfo.cmake:7)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/CMakeFiles/uninstall.dir/cmake_clean.cmake:3)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/ament_cmake_core/package.cmake:4)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/ament_cmake_core/package.cmake:6)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/ament_cmake_core/package.cmake:7)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/ament_cmake_core/package.cmake:10)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/ament_cmake_core/package.cmake:11)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_core/sam_bot_descriptionConfig-version.cmake"
+    classname="sam_bot_description.lint_cmake"/>
+  <testcase
+    name="build/ament_cmake_core/sam_bot_descriptionConfig.cmake"
+    classname="sam_bot_description.lint_cmake"/>
+  <testcase
+    name="linelength (build/ament_cmake_package_templates/templates.cmake:1)"
+    classname="sam_bot_description.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 80 characters long"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="sam_bot_description.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* build/CTestCustom.cmake
+* build/CTestTestfile.cmake
+* build/cmake_install.cmake
+* build/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/CMakeFiles/Makefile.cmake
+* build/CMakeFiles/3.16.3/CMakeCCompiler.cmake
+* build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake
+* build/CMakeFiles/3.16.3/CMakeSystem.cmake
+* build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake
+* build/CMakeFiles/sam_bot_description_uninstall.dir/cmake_clean.cmake
+* build/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/ament_cmake_core/package.cmake
+* build/ament_cmake_core/sam_bot_descriptionConfig-version.cmake
+* build/ament_cmake_core/sam_bot_descriptionConfig.cmake
+* build/ament_cmake_package_templates/templates.cmake
+* build/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake</system-out>
+</testsuite>

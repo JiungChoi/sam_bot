@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml'

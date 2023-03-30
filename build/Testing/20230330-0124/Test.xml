@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230330-0124-Experimental"
+	Name="jw-ZenBook-UX425EA-UX425EA"
+	Generator="ctest-3.16.3"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="9.4.0"
+	OSName="Linux"
+	Hostname="jw-ZenBook-UX425EA-UX425EA"
+	OSRelease="5.15.0-69-generic"
+	OSVersion="#76~20.04.1-Ubuntu SMP Mon Mar 20 15:54:19 UTC 2023"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="140"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15697"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2800"
+	>
+	<Testing>
+		<StartDateTime>Mar 30 10:24 KST</StartDateTime>
+		<StartTestTime>1680139497</StartTestTime>
+		<TestList>
+			<Test>./uncrustify</Test>
+			<Test>./copyright</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./cpplint</Test>
+			<Test>./cppcheck</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>uncrustify</Name>
+			<Path>.</Path>
+			<FullName>./uncrustify</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/uncrustify.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/uncrustify.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.302837</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/uncrustify.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/uncrustify.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">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</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>uncrustify</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.327421</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1lcFOwzAMhu97itx2oY0mJCR2LULagRMcdquyxO3CkjhyUljfnmQdQ4KJsW5IreQ6zRc7/hMXBaPO1RFCLH0/Z9q94Ua7ljVoDL5nS6K1wqk0xKZ8jRb463t+grD1CmOtIEjSPmp00/mEFYyjj5ww8Aa3PV9px4UFF2uJvifdriMrim3ndCwabYCdYPJVp43iOcKaIHQmhqO/Hejljl1urZkMU6snsYHHtFTgt+XsrrwdPFWF1icvldKmz3lKtDOKOYys0Snfr3CTS0s4QVsur8p77kMEezFqH9JCVd+SXqhSXoW7XP7YgMz2fgR9Zz5oAhmR+oVrkKzI1R29D9nKKhsNOCK1OunLhSiMKZUm/gAenMrB/uMiO3ItDYjxe3H1sK8V4ks621UXIp6r9zwxv+dXeH8jDSEjAfdCbkR7KeVIISt0jW6LN6BwtpD/zh/P3SeeWoD1RqRrlh+s8dCDMuooqIX46+B5ywyMT+H9cersngERUrhhcg1yA4olV5ZNmBTfWiBB7MglhgI2+zGa6qibng2daEc42RUv6GDTyQe57NFb====</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.357361</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzFl1Fv2jAQx9/5FPfG9pCYEEaBbU9skyatb5NWqUKRSS7Ew7Ej2yn0288hoYXSkpYZKhFkJfb/d76zfT7PA1WKyKA2fnE/ASbu5JKJBaSSc7mqWrHMcyoS+wm6JJM5kr+r6qdpHs2liRLUsWKFYVJ0Jx3wgMjCECU1SeX6nsyZIDRHYSLO7F+c0yWC561LwYyXMo7QIkrmJeMJqUyMFOqSG/1st0d5fyPur3PeqcdOf9vB1VPx/E2fSTCBX0wgoEh0NbdVxiyioDHC7WOboOSzIyoDJyqfnKhc1SoadCZLnsAc4ctXGPUgzqiisUGlgUsb0VvrKuQoFiabdRrBjUTEhDaU862Lwgn8Qaaq2Cc2grTy82coNUIfNibpPfvqXrMjiqPxBK6ZzqmJs2ptNSK2E0sQPnwEmlozH5bcrnjeDDsmH/SGri0OeqPTJLeBurYqP2yQNKlaO+EaOXPFy4z+MLgI5eoSlPHAAeUQE/rB0A/rN9OpzAv7VjXMsHeOiR0lughYC/Lm5im0f/ZpHjLDyzMHds99XxtFt7Q5mhWiTWypVEjjrAubTGd0ZcDe0VuNejtv/BKPpW2oQ9YzSS+yia45rhKmyDcsbAr5KVK53TPn8PEJdrg4H04xpD7RY45UNJYMz2LJe4ThXVze5l4Xm7qh1pfGBmG3J7HdlnSxc/Ny5NMWkIsV8yqQuyTaAgrcZbU2ksNstotqKLZuyQtO7RDy0Nq/3r/1MtwJe4BKSaU73pPSSKEplbC2WsuDg693qFh6D3WBApu6pq1a+p/Cptv5B5bM834=</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>cpplint</Name>
+			<Path>.</Path>
+			<FullName>./cpplint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.482614</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzVl81u2zAMgO9+CqIXX2bL+XOcoNslw4ABa3fZIUMQGIrNxFplyZDkJH77yU7XZl67bgOCqYAPskiRHyWKAoMAVC1Sg9qEVTMHJvbyjokdbCXn8tCOMlmWVORWBD4pZInk26H9NC3TjTRpjjpTrDJMCn/uQQBEVoYoqclWHhuyYYLQEoVJs6riTBgIgmMtmAm2jCO8YJFsasZz0vKlCnXNjX5S7d522FkOjyX3/szw4obe4QcLoskoHMThiCxkWdl/9TFfnKSLx5kwm0dzgFtpN6VqFNsVBkrUmu7Qblgt8hDgq6xBF7LmORR0j0DBguEcrhYPS1YNUrWG68eZzweB6t0VwIrjjnLyYH4Nq8n6UrEMp200nyye/oG8Qbh+C4MogqygimYGlQYubRrA6lAwew4VzZC0IaUcxc4UlnB4OcIkdpxwEs8s4Q3Tur0rnW+gWwsFb34G6q6RRRldDiWJ3EGZuoOSuIPiTq7MYldQ4ui/5MpyeQ+zXJ7jVNWrLfHPRzSME4fK6G84k/Gr4JxMxm6l7CSeOAY0HboGNHINyLUcSgaOAc3+PocW1OBOqgb8XpX1AZWStnZ0RXwOwzPVvqm+7mD8tPJZ0ekvGXtfpKG87zTybqWBugvIDwIlpfE9770UCJWSGZ5CvcxDexE/z56e5wW91lKhqZWwz2qOMPhFukfFtg2cejzoWsOXus1/7g197zuQoDhD====</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cpplint</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>cppcheck</Name>
+			<Path>.</Path>
+			<FullName>./cppcheck</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.489117</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydkEGOwjAMRfc9hXddpZ41h+AKUZu4kCGxo8SB9va0IDYDEtJIXlj6X9//2Rgoja1S1SGvBwh8lUvgE8wSo9z2zUlKI/tNgh7Pkgh/b/vUMdlJ1HqqroSsQbg/dGAAJSsWqTjLsuIUGMdErNbl7M7kLmDM0jiomUMk+BKJUwvR417QFqotav1oe4UPj+hhSbE7CuQiU6RUN5zGvjN/aAtpK7wReoKfN/VKJcwrPK/Co+y3B/y/bd/dAVo3koM=</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cppcheck</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.86638</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytk79uwyAQxnc/xW2eCI7TKQ/QsVN3C+OzTQ0c4o9jv31xkiFtqkaKIjHAHfzuA75jDHyyTcQQd249grIzTcoO0JPWdNpmkowRtsspKPlIBvnXaRtBmKal2HQYpFcuKrLlsQAGnFzkngLvaVl5qywXBm1sFqO1shEYW5JVkfVKIzwg8jYp3fFNX+MxJB3Dn9uu7N2ZvMur4n2jl07ISQy4RUpQAWahVVdckxf2Z2bne/K6qg/V4VCxal+/naP/nXqoSJJbvRrGG03Ps5yTI8rpNaifD/U0acM00ogJXwBLVvqU/6FfXwC7M8Mt6YPAeWo1mpBNnmxXsF894DEmb7PvO4TqLjujzyrhUh/OHn7UFk+buCy+ATu/Ve4=</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Mar 30 10:24 KST</EndDateTime>
+		<EndTestTime>1680139498</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

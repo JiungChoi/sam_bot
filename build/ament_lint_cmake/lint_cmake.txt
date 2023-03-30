@@ -1,0 +1,50 @@
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml
+
+build/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+build/CTestTestfile.cmake:7: Lines should be <= 80 characters long [linelength]
+
+build/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+build/cmake_install.cmake:89: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cmake_install.cmake:106: Weird indentation; use 2 spaces [whitespace/indent]
+build/cmake_install.cmake:108: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/Makefile.cmake:261: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/Makefile.cmake:267: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/Makefile.cmake:294: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/3.16.3/CMakeCCompiler.cmake:30: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/3.16.3/CMakeCCompiler.cmake:31: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:32: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:33: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:48: Extra spaces between 'foreach' and its () [whitespace/extra]
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:49: Extra spaces between 'if' and its () [whitespace/extra]
+
+build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/sam_bot_description_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/uninstall.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/uninstall.dir/DependInfo.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ament_cmake_core/package.cmake:4: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ament_cmake_core/package.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 80 characters long [linelength]
+
+
+30 errors
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml'

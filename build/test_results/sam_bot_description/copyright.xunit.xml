@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="sam_bot_description.copyright"
+  tests="19"
+  errors="0"
+  failures="19"
+  time="0.003"
+>
+  <testcase
+    name="build/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/3.16.3/CMakeSystem.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/Makefile.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/sam_bot_description_uninstall.dir/cmake_clean.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/uninstall.dir/DependInfo.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CMakeFiles/uninstall.dir/cmake_clean.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CTestCustom.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/CTestTestfile.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_core/package.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_core/sam_bot_descriptionConfig-version.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_core/sam_bot_descriptionConfig.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_package_templates/templates.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/cmake_install.cmake"
+    classname="sam_bot_description.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* build/CMakeFiles/3.16.3/CMakeCCompiler.cmake
+* build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake
+* build/CMakeFiles/3.16.3/CMakeSystem.cmake
+* build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
+* build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+* build/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/CMakeFiles/Makefile.cmake
+* build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake
+* build/CMakeFiles/sam_bot_description_uninstall.dir/cmake_clean.cmake
+* build/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/CTestCustom.cmake
+* build/CTestTestfile.cmake
+* build/ament_cmake_core/package.cmake
+* build/ament_cmake_core/sam_bot_descriptionConfig-version.cmake
+* build/ament_cmake_core/sam_bot_descriptionConfig.cmake
+* build/ament_cmake_package_templates/templates.cmake
+* build/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* build/cmake_install.cmake</system-out>
+</testsuite>

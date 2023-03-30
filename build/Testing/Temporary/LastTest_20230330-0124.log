@@ -1,0 +1,803 @@
+Start testing: Mar 30 10:24 KST
+----------------------------------------------------------
+5/6 Testing: uncrustify
+5/6 Test: uncrustify
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/uncrustify.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/uncrustify.xunit.xml"
+Directory: /home/jw/jw/sam_bot_description
+"uncrustify" start time: Mar 30 10:24 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/uncrustify.xunit.xml
+Code style divergence in file 'build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c':
+
+--- build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
++++ build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c.uncrustify
+@@ -26,3 +26,3 @@
+-  /* __INTEL_COMPILER = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
+-# define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
++/* __INTEL_COMPILER = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)
++# define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)
+@@ -32 +32 @@
+-#  define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
++#  define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)
+@@ -35 +35 @@
+-  /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
++/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+@@ -39 +39 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -65,3 +65,3 @@
+-# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)
+-# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)
+-# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)
++# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)
++# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)
++# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)
+@@ -71,2 +71,2 @@
+-  /* __BORLANDC__ = 0xVRR */
+-# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)
++/* __BORLANDC__ = 0xVRR */
++# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)
+@@ -77 +77 @@
+-   /* __WATCOMC__ = VVRR */
++/* __WATCOMC__ = VVRR */
+@@ -86 +86 @@
+-   /* __WATCOMC__ = VVRP + 1100 */
++/* __WATCOMC__ = VVRP + 1100 */
+@@ -96,4 +96,4 @@
+-   /* __SUNPRO_C = 0xVRRP */
+-#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>12)
+-#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xFF)
+-#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)
++/* __SUNPRO_C = 0xVRRP */
++#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 12)
++#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xFF)
++#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)
+@@ -101,4 +101,4 @@
+-   /* __SUNPRO_CC = 0xVRP */
+-#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>8)
+-#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xF)
+-#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)
++/* __SUNPRO_CC = 0xVRP */
++#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 8)
++#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xF)
++#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)
+@@ -109,4 +109,4 @@
+-  /* __HP_cc = VVRRPP */
+-# define COMPILER_VERSION_MAJOR DEC(__HP_cc/10000)
+-# define COMPILER_VERSION_MINOR DEC(__HP_cc/100 % 100)
+-# define COMPILER_VERSION_PATCH DEC(__HP_cc     % 100)
++/* __HP_cc = VVRRPP */
++# define COMPILER_VERSION_MAJOR DEC(__HP_cc / 10000)
++# define COMPILER_VERSION_MINOR DEC(__HP_cc / 100 % 100)
++# define COMPILER_VERSION_PATCH DEC(__HP_cc % 100)
+@@ -116,4 +116,4 @@
+-  /* __DECC_VER = VVRRTPPPP */
+-# define COMPILER_VERSION_MAJOR DEC(__DECC_VER/10000000)
+-# define COMPILER_VERSION_MINOR DEC(__DECC_VER/100000  % 100)
+-# define COMPILER_VERSION_PATCH DEC(__DECC_VER         % 10000)
++/* __DECC_VER = VVRRTPPPP */
++# define COMPILER_VERSION_MAJOR DEC(__DECC_VER / 10000000)
++# define COMPILER_VERSION_MINOR DEC(__DECC_VER / 100000 % 100)
++# define COMPILER_VERSION_PATCH DEC(__DECC_VER % 10000)
+@@ -123,4 +123,4 @@
+-  /* __IBMC__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
++/* __IBMC__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+@@ -138,4 +138,4 @@
+-  /* __IBMC__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
++/* __IBMC__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+@@ -145,4 +145,4 @@
+-  /* __IBMC__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)
++/* __IBMC__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)
+@@ -165,4 +165,4 @@
+-  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+-# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+-# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+-# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
++/* __TI_COMPILER_VERSION__ = VVVRRRPPP */
++# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)
++# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)
++# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)
+@@ -179 +179 @@
+-# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)
++# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)
+@@ -194,4 +194,4 @@
+-  /* __ARMCC_VERSION = VRRPPPP */
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)
++/* __ARMCC_VERSION = VRRPPPP */
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+@@ -199,4 +199,4 @@
+-  /* __ARMCC_VERSION = VRPPPP */
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)
++/* __ARMCC_VERSION = VRPPPP */
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+@@ -215 +215 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -223,3 +223,3 @@
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)
+@@ -237 +237 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -254 +254 @@
+-  /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -259 +259 @@
+-    /* _MSC_FULL_VER = VVRRPPPPP */
++/* _MSC_FULL_VER = VVRRPPPPP */
+@@ -262 +262 @@
+-    /* _MSC_FULL_VER = VVRRPPPP */
++/* _MSC_FULL_VER = VVRRPPPP */
+@@ -270 +270,2 @@
+-#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)
++#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \
++  defined(__ADSP21000__)
+@@ -273,4 +274,4 @@
+-  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+-# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)
+-# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)
+-# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)
++/* __VISUALDSPVERSION__ = 0xVVRRPP00 */
++# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)
++# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)
++# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)
+@@ -286 +287,3 @@
+-# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__))
++# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
++  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \
++  defined(__ICC8051__))
+@@ -288 +291 @@
+-#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
++#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+@@ -300,4 +303,4 @@
+-  /* SDCC = VRP */
+-#  define COMPILER_VERSION_MAJOR DEC(SDCC/100)
+-#  define COMPILER_VERSION_MINOR DEC(SDCC/10 % 10)
+-#  define COMPILER_VERSION_PATCH DEC(SDCC    % 10)
++/* SDCC = VRP */
++#  define COMPILER_VERSION_MAJOR DEC(SDCC / 100)
++#  define COMPILER_VERSION_MINOR DEC(SDCC / 10 % 10)
++#  define COMPILER_VERSION_PATCH DEC(SDCC % 10)
+@@ -321 +324 @@
+-char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
++char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+@@ -323 +326 @@
+-char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
++char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+@@ -327 +330 @@
+-char const* qnxnto = "INFO" ":" "qnxnto[]";
++char const * qnxnto = "INFO" ":" "qnxnto[]";
+@@ -331 +334 @@
+-char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
++char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+@@ -544,9 +547,9 @@
+-#define DEC(n)                   \
+-  ('0' + (((n) / 10000000)%10)), \
+-  ('0' + (((n) / 1000000)%10)),  \
+-  ('0' + (((n) / 100000)%10)),   \
+-  ('0' + (((n) / 10000)%10)),    \
+-  ('0' + (((n) / 1000)%10)),     \
+-  ('0' + (((n) / 100)%10)),      \
+-  ('0' + (((n) / 10)%10)),       \
+-  ('0' +  ((n) % 10))
++#define DEC(n) \
++  ('0' + (((n) / 10000000) % 10)), \
++  ('0' + (((n) / 1000000) % 10)), \
++  ('0' + (((n) / 100000) % 10)), \
++  ('0' + (((n) / 10000) % 10)), \
++  ('0' + (((n) / 1000) % 10)), \
++  ('0' + (((n) / 100) % 10)), \
++  ('0' + (((n) / 10) % 10)), \
++  ('0' + ((n) % 10))
+@@ -555,9 +558,9 @@
+-#define HEX(n)             \
+-  ('0' + ((n)>>28 & 0xF)), \
+-  ('0' + ((n)>>24 & 0xF)), \
+-  ('0' + ((n)>>20 & 0xF)), \
+-  ('0' + ((n)>>16 & 0xF)), \
+-  ('0' + ((n)>>12 & 0xF)), \
+-  ('0' + ((n)>>8  & 0xF)), \
+-  ('0' + ((n)>>4  & 0xF)), \
+-  ('0' + ((n)     & 0xF))
++#define HEX(n) \
++  ('0' + ((n) >> 28 & 0xF)), \
++  ('0' + ((n) >> 24 & 0xF)), \
++  ('0' + ((n) >> 20 & 0xF)), \
++  ('0' + ((n) >> 16 & 0xF)), \
++  ('0' + ((n) >> 12 & 0xF)), \
++  ('0' + ((n) >> 8 & 0xF)), \
++  ('0' + ((n) >> 4 & 0xF)), \
++  ('0' + ((n) & 0xF))
+@@ -569 +572 @@
+-  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
++  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+@@ -574 +577 @@
+-   '.', COMPILER_VERSION_PATCH,
++  '.', COMPILER_VERSION_PATCH,
+@@ -576 +579 @@
+-    '.', COMPILER_VERSION_TWEAK,
++  '.', COMPILER_VERSION_TWEAK,
+@@ -580 +583,2 @@
+-  ']','\0'};
++  ']', '\0'
++};
+@@ -587,3 +591,4 @@
+-  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+-  'i','n','t','e','r','n','a','l','[',
+-  COMPILER_VERSION_INTERNAL,']','\0'};
++  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',
++  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',
++  COMPILER_VERSION_INTERNAL, ']', '\0'
++};
+@@ -596 +601 @@
+-  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
++  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+@@ -601 +606 @@
+-   '.', SIMULATE_VERSION_PATCH,
++  '.', SIMULATE_VERSION_PATCH,
+@@ -603 +608 @@
+-    '.', SIMULATE_VERSION_TWEAK,
++  '.', SIMULATE_VERSION_TWEAK,
+@@ -607 +612,2 @@
+-  ']','\0'};
++  ']', '\0'
++};
+@@ -614,4 +620,2 @@
+-char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+-char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+-
+-
++char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
++char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+@@ -634 +638 @@
+-const char* info_language_dialect_default =
++const char * info_language_dialect_default =
+@@ -643 +647 @@
+-int main(argc, argv) int argc; char *argv[];
++int main(argc, argv) int argc; char * argv[];
+@@ -645 +649 @@
+-int main(int argc, char* argv[])
++int main(int argc, char * argv[])
+
+Code style divergence in file 'build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp':
+
+--- build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
++++ build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.uncrustify
+@@ -14 +14 @@
+-  /* __COMO_VERSION__ = VRR */
++/* __COMO_VERSION__ = VRR */
+@@ -26,3 +26,3 @@
+-  /* __INTEL_COMPILER = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)
+-# define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)
++/* __INTEL_COMPILER = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)
++# define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)
+@@ -32 +32 @@
+-#  define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)
++#  define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)
+@@ -35 +35 @@
+-  /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
++/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */
+@@ -39 +39 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -65,3 +65,3 @@
+-# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)
+-# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)
+-# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)
++# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)
++# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)
++# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)
+@@ -71,2 +71,2 @@
+-  /* __BORLANDC__ = 0xVRR */
+-# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)
++/* __BORLANDC__ = 0xVRR */
++# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)
+@@ -77 +77 @@
+-   /* __WATCOMC__ = VVRR */
++/* __WATCOMC__ = VVRR */
+@@ -86 +86 @@
+-   /* __WATCOMC__ = VVRP + 1100 */
++/* __WATCOMC__ = VVRP + 1100 */
+@@ -96,4 +96,4 @@
+-   /* __SUNPRO_CC = 0xVRRP */
+-#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>12)
+-#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xFF)
+-#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)
++/* __SUNPRO_CC = 0xVRRP */
++#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 12)
++#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xFF)
++#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)
+@@ -101,4 +101,4 @@
+-   /* __SUNPRO_CC = 0xVRP */
+-#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>8)
+-#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xF)
+-#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)
++/* __SUNPRO_CC = 0xVRP */
++#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 8)
++#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xF)
++#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)
+@@ -109,4 +109,4 @@
+-  /* __HP_aCC = VVRRPP */
+-# define COMPILER_VERSION_MAJOR DEC(__HP_aCC/10000)
+-# define COMPILER_VERSION_MINOR DEC(__HP_aCC/100 % 100)
+-# define COMPILER_VERSION_PATCH DEC(__HP_aCC     % 100)
++/* __HP_aCC = VVRRPP */
++# define COMPILER_VERSION_MAJOR DEC(__HP_aCC / 10000)
++# define COMPILER_VERSION_MINOR DEC(__HP_aCC / 100 % 100)
++# define COMPILER_VERSION_PATCH DEC(__HP_aCC % 100)
+@@ -116,4 +116,4 @@
+-  /* __DECCXX_VER = VVRRTPPPP */
+-# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER/10000000)
+-# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER/100000  % 100)
+-# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER         % 10000)
++/* __DECCXX_VER = VVRRTPPPP */
++# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER / 10000000)
++# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER / 100000 % 100)
++# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER % 10000)
+@@ -123,4 +123,4 @@
+-  /* __IBMCPP__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
++/* __IBMCPP__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+@@ -138,4 +138,4 @@
+-  /* __IBMCPP__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
++/* __IBMCPP__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+@@ -145,4 +145,4 @@
+-  /* __IBMCPP__ = VRP */
+-# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+-# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+-# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
++/* __IBMCPP__ = VRP */
++# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)
++# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)
++# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)
+@@ -165,4 +165,4 @@
+-  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+-# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+-# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+-# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
++/* __TI_COMPILER_VERSION__ = VVVRRRPPP */
++# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)
++# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)
++# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)
+@@ -179 +179 @@
+-# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)
++# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)
+@@ -188,4 +188,4 @@
+-  /* __ARMCC_VERSION = VRRPPPP */
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)
++/* __ARMCC_VERSION = VRRPPPP */
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+@@ -193,4 +193,4 @@
+-  /* __ARMCC_VERSION = VRPPPP */
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)
++/* __ARMCC_VERSION = VRPPPP */
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)
+@@ -209 +209 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -217,3 +217,3 @@
+-  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)
+-  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)
+-  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)
++  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)
++  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)
++  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)
+@@ -231 +231 @@
+-   /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -252 +252 @@
+-  /* _MSC_VER = VVRR */
++/* _MSC_VER = VVRR */
+@@ -257 +257 @@
+-    /* _MSC_FULL_VER = VVRRPPPPP */
++/* _MSC_FULL_VER = VVRRPPPPP */
+@@ -260 +260 @@
+-    /* _MSC_FULL_VER = VVRRPPPP */
++/* _MSC_FULL_VER = VVRRPPPP */
+@@ -268 +268,2 @@
+-#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)
++#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \
++  defined(__ADSP21000__)
+@@ -271,4 +272,4 @@
+-  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */
+-# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)
+-# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)
+-# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)
++/* __VISUALDSPVERSION__ = 0xVVRRPP00 */
++# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)
++# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)
++# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)
+@@ -284 +285,3 @@
+-# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__))
++# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \
++  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \
++  defined(__ICC8051__))
+@@ -286 +289 @@
+-#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))
++#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))
+@@ -306 +309 @@
+-char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
++char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
+@@ -308 +311 @@
+-char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
++char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
+@@ -312 +315 @@
+-char const* qnxnto = "INFO" ":" "qnxnto[]";
++char const * qnxnto = "INFO" ":" "qnxnto[]";
+@@ -316 +319 @@
+-char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
++char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+@@ -529,9 +532,9 @@
+-#define DEC(n)                   \
+-  ('0' + (((n) / 10000000)%10)), \
+-  ('0' + (((n) / 1000000)%10)),  \
+-  ('0' + (((n) / 100000)%10)),   \
+-  ('0' + (((n) / 10000)%10)),    \
+-  ('0' + (((n) / 1000)%10)),     \
+-  ('0' + (((n) / 100)%10)),      \
+-  ('0' + (((n) / 10)%10)),       \
+-  ('0' +  ((n) % 10))
++#define DEC(n) \
++  ('0' + (((n) / 10000000) % 10)), \
++  ('0' + (((n) / 1000000) % 10)), \
++  ('0' + (((n) / 100000) % 10)), \
++  ('0' + (((n) / 10000) % 10)), \
++  ('0' + (((n) / 1000) % 10)), \
++  ('0' + (((n) / 100) % 10)), \
++  ('0' + (((n) / 10) % 10)), \
++  ('0' + ((n) % 10))
+@@ -540,9 +543,9 @@
+-#define HEX(n)             \
+-  ('0' + ((n)>>28 & 0xF)), \
+-  ('0' + ((n)>>24 & 0xF)), \
+-  ('0' + ((n)>>20 & 0xF)), \
+-  ('0' + ((n)>>16 & 0xF)), \
+-  ('0' + ((n)>>12 & 0xF)), \
+-  ('0' + ((n)>>8  & 0xF)), \
+-  ('0' + ((n)>>4  & 0xF)), \
+-  ('0' + ((n)     & 0xF))
++#define HEX(n) \
++  ('0' + ((n) >> 28 & 0xF)), \
++  ('0' + ((n) >> 24 & 0xF)), \
++  ('0' + ((n) >> 20 & 0xF)), \
++  ('0' + ((n) >> 16 & 0xF)), \
++  ('0' + ((n) >> 12 & 0xF)), \
++  ('0' + ((n) >> 8 & 0xF)), \
++  ('0' + ((n) >> 4 & 0xF)), \
++  ('0' + ((n) & 0xF))
+@@ -554 +557 @@
+-  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',
++  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+@@ -559 +562 @@
+-   '.', COMPILER_VERSION_PATCH,
++  '.', COMPILER_VERSION_PATCH,
+@@ -561 +564 @@
+-    '.', COMPILER_VERSION_TWEAK,
++  '.', COMPILER_VERSION_TWEAK,
+@@ -565 +568 @@
+-  ']','\0'};
++  ']', '\0'};
+@@ -572,3 +575,3 @@
+-  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',
+-  'i','n','t','e','r','n','a','l','[',
+-  COMPILER_VERSION_INTERNAL,']','\0'};
++  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',
++  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',
++  COMPILER_VERSION_INTERNAL, ']', '\0'};
+@@ -581 +584 @@
+-  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',
++  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',
+@@ -586 +589 @@
+-   '.', SIMULATE_VERSION_PATCH,
++  '.', SIMULATE_VERSION_PATCH,
+@@ -588 +591 @@
+-    '.', SIMULATE_VERSION_TWEAK,
++  '.', SIMULATE_VERSION_TWEAK,
+@@ -592 +595 @@
+-  ']','\0'};
++  ']', '\0'};
+@@ -599,4 +602,2 @@
+-char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+-char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+-
+-
++char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
++char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
+@@ -621 +622 @@
+-const char* info_language_dialect_default = "INFO" ":" "dialect_default["
++const char * info_language_dialect_default = "INFO" ":" "dialect_default["
+@@ -633 +634 @@
+-"]";
++  "]";
+@@ -637 +638 @@
+-int main(int argc, char* argv[])
++int main(int argc, char * argv[])
+
+2 files with code style divergence
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/uncrustify.xunit.xml'
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Failed.
+"uncrustify" end time: Mar 30 10:24 KST
+"uncrustify" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/6 Testing: copyright
+1/6 Test: copyright
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml"
+Directory: /home/jw/jw/sam_bot_description
+"copyright" start time: Mar 30 10:24 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml
+build/CMakeFiles/3.16.3/CMakeCCompiler.cmake: could not find copyright notice
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake: could not find copyright notice
+build/CMakeFiles/3.16.3/CMakeSystem.cmake: could not find copyright notice
+build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c: could not find copyright notice
+build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp: could not find copyright notice
+build/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice
+build/CMakeFiles/Makefile.cmake: could not find copyright notice
+build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake: could not find copyright notice
+build/CMakeFiles/sam_bot_description_uninstall.dir/cmake_clean.cmake: could not find copyright notice
+build/CMakeFiles/uninstall.dir/DependInfo.cmake: could not find copyright notice
+build/CMakeFiles/uninstall.dir/cmake_clean.cmake: could not find copyright notice
+build/CTestCustom.cmake: could not find copyright notice
+build/CTestTestfile.cmake: could not find copyright notice
+build/ament_cmake_core/package.cmake: could not find copyright notice
+build/ament_cmake_core/sam_bot_descriptionConfig-version.cmake: could not find copyright notice
+build/ament_cmake_core/sam_bot_descriptionConfig.cmake: could not find copyright notice
+build/ament_cmake_package_templates/templates.cmake: could not find copyright notice
+build/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake: could not find copyright notice
+build/cmake_install.cmake: could not find copyright notice
+19 errors, checked 19 files
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml'
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Failed.
+"copyright" end time: Mar 30 10:24 KST
+"copyright" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: lint_cmake
+4/6 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml"
+Directory: /home/jw/jw/sam_bot_description
+"lint_cmake" start time: Mar 30 10:24 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml
+build/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+build/CTestTestfile.cmake:7: Lines should be <= 80 characters long [linelength]
+
+build/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+build/cmake_install.cmake:89: Mismatching spaces inside () after command [whitespace/mismatch]
+build/cmake_install.cmake:106: Weird indentation; use 2 spaces [whitespace/indent]
+build/cmake_install.cmake:108: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/Makefile.cmake:261: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/Makefile.cmake:267: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/Makefile.cmake:294: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/3.16.3/CMakeCCompiler.cmake:30: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/3.16.3/CMakeCCompiler.cmake:31: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:32: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:33: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:48: Extra spaces between 'foreach' and its () [whitespace/extra]
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:49: Extra spaces between 'if' and its () [whitespace/extra]
+
+build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/sam_bot_description_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/uninstall.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]
+build/CMakeFiles/uninstall.dir/DependInfo.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ament_cmake_core/package.cmake:4: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ament_cmake_core/package.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 80 characters long [linelength]
+
+
+30 errors
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Failed.
+"lint_cmake" end time: Mar 30 10:24 KST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: cpplint
+3/6 Test: cpplint
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml"
+Directory: /home/jw/jw/sam_bot_description
+"cpplint" start time: Mar 30 10:24 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:270:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:286:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:569:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:580:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:587:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:588:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:589:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:596:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:607:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:268:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:284:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:554:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:565:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:572:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:573:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:574:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:581:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:592:  Missing space after ,  [whitespace/comma] [3]
+Category 'legal/copyright' errors found: 2
+Category 'whitespace/comma' errors found: 14
+Category 'whitespace/line_length' errors found: 4
+Total errors found: 20
+Not using '--root'
+
+Done processing /home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
+
+Done processing /home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml'
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Failed.
+"cpplint" end time: Mar 30 10:24 KST
+"cpplint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: cppcheck
+2/6 Test: cppcheck
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml"
+Directory: /home/jw/jw/sam_bot_description
+"cppcheck" start time: Mar 30 10:24 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Mar 30 10:24 KST
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: xmllint
+6/6 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml" "--package-name" "sam_bot_description" "--output-file" "/home/jw/jw/sam_bot_description/build/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml"
+Directory: /home/jw/jw/sam_bot_description
+"xmllint" start time: Mar 30 10:24 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml
+File 'package.xml' is valid
+
+File 'build/Testing/20230330-0124/Test.xml' is valid
+
+File 'build/test_results/sam_bot_description/copyright.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/cppcheck.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/cpplint.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/lint_cmake.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/uncrustify.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/xmllint.xunit.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml'
+<end of output>
+Test time =   0.87 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Mar 30 10:24 KST
+"xmllint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 30 10:24 KST
+
+copyright =   0.33 sec*proc
+
+cppcheck =   0.49 sec*proc
+
+cpplint =   0.48 sec*proc
+
+lint_cmake =   0.36 sec*proc
+
+linter =   2.83 sec*proc
+
+uncrustify =   0.30 sec*proc
+
+xmllint =   0.87 sec*proc
+

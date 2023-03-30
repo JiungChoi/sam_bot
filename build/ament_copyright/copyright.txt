@@ -1,0 +1,27 @@
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml
+
+build/CMakeFiles/3.16.3/CMakeCCompiler.cmake: could not find copyright notice
+build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake: could not find copyright notice
+build/CMakeFiles/3.16.3/CMakeSystem.cmake: could not find copyright notice
+build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c: could not find copyright notice
+build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp: could not find copyright notice
+build/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice
+build/CMakeFiles/Makefile.cmake: could not find copyright notice
+build/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake: could not find copyright notice
+build/CMakeFiles/sam_bot_description_uninstall.dir/cmake_clean.cmake: could not find copyright notice
+build/CMakeFiles/uninstall.dir/DependInfo.cmake: could not find copyright notice
+build/CMakeFiles/uninstall.dir/cmake_clean.cmake: could not find copyright notice
+build/CTestCustom.cmake: could not find copyright notice
+build/CTestTestfile.cmake: could not find copyright notice
+build/ament_cmake_core/package.cmake: could not find copyright notice
+build/ament_cmake_core/sam_bot_descriptionConfig-version.cmake: could not find copyright notice
+build/ament_cmake_core/sam_bot_descriptionConfig.cmake: could not find copyright notice
+build/ament_cmake_package_templates/templates.cmake: could not find copyright notice
+build/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake: could not find copyright notice
+build/cmake_install.cmake: could not find copyright notice
+19 errors, checked 19 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/copyright.xunit.xml'

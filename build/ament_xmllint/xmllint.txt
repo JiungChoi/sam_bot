@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml
+
+File 'package.xml' is valid
+
+File 'build/Testing/20230330-0124/Test.xml' is valid
+
+File 'build/test_results/sam_bot_description/copyright.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/cppcheck.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/cpplint.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/lint_cmake.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/uncrustify.xunit.xml' is valid
+
+File 'build/test_results/sam_bot_description/xmllint.xunit.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/xmllint.xunit.xml'

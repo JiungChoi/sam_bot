@@ -1,0 +1,37 @@
+-- run_test.py: invoking following command in '/home/jw/jw/sam_bot_description':
+ - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml
+
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:270:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:286:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:569:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:580:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:587:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:588:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:589:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:596:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:607:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:268:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:284:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:554:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:565:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:572:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:573:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:574:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:581:  Missing space after ,  [whitespace/comma] [3]
+/home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:592:  Missing space after ,  [whitespace/comma] [3]
+Category 'legal/copyright' errors found: 2
+Category 'whitespace/comma' errors found: 14
+Category 'whitespace/line_length' errors found: 4
+Total errors found: 20
+Not using '--root'
+
+Done processing /home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
+
+Done processing /home/jw/jw/sam_bot_description/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/jw/jw/sam_bot_description/build/test_results/sam_bot_description/cpplint.xunit.xml'

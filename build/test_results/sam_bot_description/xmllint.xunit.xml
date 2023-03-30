@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="sam_bot_description.xmllint"
+  tests="8"
+  errors="0"
+  failures="0"
+  time="0.541"
+>
+  <testcase
+    name="package.xml"
+    classname="sam_bot_description.xmllint"/>
+  <testcase
+    name="build/Testing/20230330-0124/Test.xml"
+    classname="sam_bot_description.xmllint"/>
+  <testcase
+    name="build/test_results/sam_bot_description/copyright.xunit.xml"
+    classname="sam_bot_description.xmllint"/>
+  <testcase
+    name="build/test_results/sam_bot_description/cppcheck.xunit.xml"
+    classname="sam_bot_description.xmllint"/>
+  <testcase
+    name="build/test_results/sam_bot_description/cpplint.xunit.xml"
+    classname="sam_bot_description.xmllint"/>
+  <testcase
+    name="build/test_results/sam_bot_description/lint_cmake.xunit.xml"
+    classname="sam_bot_description.xmllint"/>
+  <testcase
+    name="build/test_results/sam_bot_description/uncrustify.xunit.xml"
+    classname="sam_bot_description.xmllint"/>
+  <testcase
+    name="build/test_results/sam_bot_description/xmllint.xunit.xml"
+    classname="sam_bot_description.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* build/Testing/20230330-0124/Test.xml
+* build/test_results/sam_bot_description/copyright.xunit.xml
+* build/test_results/sam_bot_description/cppcheck.xunit.xml
+* build/test_results/sam_bot_description/cpplint.xunit.xml
+* build/test_results/sam_bot_description/lint_cmake.xunit.xml
+* build/test_results/sam_bot_description/uncrustify.xunit.xml
+* build/test_results/sam_bot_description/xmllint.xunit.xml</system-out>
+</testsuite>
